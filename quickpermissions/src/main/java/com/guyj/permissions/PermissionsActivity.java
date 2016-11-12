@@ -1,6 +1,5 @@
 package com.guyj.permissions;
 
-import android.Manifest;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -17,7 +16,6 @@ import android.widget.LinearLayout;
 
 import com.guyj.R;
 
-import java.util.ArrayList;
 import java.util.List;
 
 
@@ -169,5 +167,6 @@ public class PermissionsActivity extends AppCompatActivity {
         Intent intent = new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
         intent.setData(Uri.parse(PACKAGE_URL_SCHEME + getPackageName()));
         startActivity(intent);
+        finish();
     }
 }
