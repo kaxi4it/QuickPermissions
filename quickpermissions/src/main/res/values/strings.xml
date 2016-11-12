@@ -1,0 +1,7 @@
+<resources>
+    <!--权限检查-->
+    <string name="permissions_settings">设置</string>
+    <string name="permissions_text">app使用过程中需要添加相应权限，保证app正常使用,可以通过"设置-权限"进行授权</string>
+    <string name="permissions_quit">退出</string>
+    <string name="permissions_help">权限设置</string>
+</resources>
